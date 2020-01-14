@@ -80,3 +80,6 @@ class WienerAttack(object):
                             self.p = roots[0]
                             self.q = roots[1]
                         break
+        print('***************************************')
+        print('p = ',self.p)
+        print('q = ',self.q)
